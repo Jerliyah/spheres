@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First Aframe Project</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@056b2bce5d448f0c9e9e1855397ff7a40847d4c5/dist/aframe-master.min.js"></script>
+</head>
+<body>
+    <!-- TODO: Put ONE class on everything, continue with tiny dots, then camera movement, then animation -->
+    <a-scene>
+        <!-- == Background == -->
+        <a-sky color="#212121"></a-sky>
+
+
+        <!-- == Core == -->
+        <a-sphere class='core' position="0 1.5 -15" radius="2" color="#99ccff"></a-sphere>
+
+
+        <!-- == 1st-layer == -->
+        <a-sphere class='layer-one_1' position="0 1.5 -25" radius="1" color="#6666ff" ></a-sphere>
+
+        <!-- Ascending -->
+        <a-sphere position="2 2.5 -20" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="4 3.5 -15" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="2 4.5 -10" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="0 5.5 -5" radius="1" color="#6666ff"></a-sphere>
+
+        <!-- Descending -->
+        <a-sphere position="-2 -2.5 -20" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="-4 -3.5 -15" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="-2 -4.5 -10" radius="1" color="#6666ff"></a-sphere>
+
+        <a-sphere position="-0 -5.5 -5" radius="1" color="#6666ff"></a-sphere>
+
+
+        <!-- == 2nd Layer == -->
+
+        <!-- most left -->
+        <a-sphere position="-7.5 3 -15" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="-6 2.5 -13" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="-4.5 2 -11" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="-3 1.5 -9" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="-1.5 1 -7" radius="0.25" color="#9898e6"></a-sphere>
+
+
+        <!-- most right -->
+        <a-sphere position="7.5 3 -15" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="6 2.5 -13" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="4.5 2 -11" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="3 1.5 -9" radius="0.25" color="#9898e6"></a-sphere>
+
+        <a-sphere position="1.5 1 -7" radius="0.25" color="#9898e6"></a-sphere>
+
+        <!-- closest -->
+        <a-sphere position="0 0.5 -5" radius="0.25" color="#9898e6"></a-sphere>
+
+    </a-scene>
+</body>
+</html>
